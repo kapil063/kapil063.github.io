@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+    body {
+      font-family: "Montserrat", sans-serif;
+
+      margin: 0;
+      display: flex;
+    }
+    .sec1 {
+      height: 100vh;
+      width: 400px;
+      margin: 0;
+      background-color: #425f57;
+
+      position: sticky;
+      top: 0;
+    }
+    main {
+      width: 100vw;
+      height: fit-content;
+    }
+    .sec2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #749f82;
+    }
+    .img {
+      border-radius: 50%;
+      width: 120px;
+      border: solid #cfff8d;
+    }
+    .div {
+      display: flex;
+      justify-content: center;
+      padding-top: 100px;
+      color: white;
+    }
+    .div2 {
+      width: 400px;
+      margin: auto;
+      margin-top: 2px;
+      text-align: center;
+    }
+    .div3 {
+      font-size: 20px;
+      color: white;
+    }
+    .div4 {
+      font-size: 15px;
+      color: white;
+    }
+    .btn {
+      color: white;
+      background-color: #a8e8909d;
+      width: 250px;
+      height: 30px;
+      border-radius: 16px;
+      border: none;
+      font-family: "Montserrat", sans-serif;
+    }
+    .btn:hover {
+      cursor: pointer;
+      transform: scale(102%);
+      transition: 0.2s;
+    }
+    .button {
+      padding-top: 15px;
+    }
+    .div5 {
+      width: 800px;
+      height: 500px;
+      margin: auto;
+      margin-top: 120px;
+      color: white;
+    }
+    .div6 {
+      font-size: 30px;
+      padding-left: 4px;
+    }
+    .div7 {
+      font-size: 50px;
+    }
+    .Name {
+      color: yellow;
+    }
+    .div8 {
+      padding-top: 10px;
+      padding-left: 4px;
+    }
+    .div9 {
+      padding-top: 30px;
+    }
+    .bt {
+      color: white;
+      background-color: #a8e890a9;
+      width: 150px;
+      height: 35px;
+      border-radius: 16px;
+      border: none;
+      font-family: "Montserrat", sans-serif;
+    }
+    .bt:hover {
+      cursor: pointer;
+      transform: scale(102%);
+      transition: 0.2s;
+    }
+    .btn-home {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+    }
+    .btn-home2 {
+      padding: 12px;
+      color: #a5a5a5;
+      background-color: #cfff8d;
+      border-radius: 35px;
+      border: none;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    @media only screen and (max-width: 600px) {
+      body {
+        flex-direction: column;
+      }
+      .sec2 {
+        flex-direction: column;
+        width: fit-content;
+      }
+      .sec1 {
+        position: static;
+        width: 100%;
+      }
+    }
+  </style>
+  <body>
+    <section class="sec1">
+      <div class="div">
+        <div><img class="img" src="kapil.jpg" alt="" /></div>
+      </div>
+      <div class="div2">
+        <div class="div3"><b>Kapil Thapa</b></div>
+        <div class="div4">Front End Developer</div>
+        <div class="button"><button class="btn">Home</button></div>
+        <div class="button"><button class="btn">About</button></div>
+        <div class="button"><button class="btn">Education</button></div>
+        <div class="button"><button class="btn">Portfolio</button></div>
+        <div class="button"><button class="btn">Contact</button></div>
+      </div>
+    </section>
+    <main id="home">
+      <section class="sec2">
+        <div class="div5">
+          <div class="btn-home">
+            <a href="#home">
+              <iconify-icon
+                class="btn-home2"
+                icon="akar-icons:home-alt1"
+              ></iconify-icon>
+            </a>
+          </div>
+          <div class="div6">HI THERE !</div>
+          <div class="div7">I'M <span class="Name"> Kapil Thapa</span></div>
+          <div class="div8">
+            hii viewer this is kapil thapa, this webpage is just an replica of
+            my HTML + Css knowledge//// If uhh Like it Just follow me on IG-
+            hey.kapilthapa , githup- kapil063
+          </div>
+          <div class="div9">
+            <button class="bt">
+              About Me <iconify-icon icon="bi:person-fill"></iconify-icon>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="sec2">
+        <div class="div5">
+          <div class="div6">HI THERE !</div>
+          <div class="div7">I'M <span class="Name"> Kapil Thapa</span></div>
+          <div class="div8">
+            hii viewer this is kapil thapa, this webpage is just an replica of
+            my HTML + Css knowledge//// If uhh Like it Just follow me on IG-
+            hey.kapilthapa , githup- kapil230
+          </div>
+          <div class="div9">
+            <button class="bt">
+              About Me <iconify-icon icon="bi:person-fill"></iconify-icon>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+  </body>
+</html>
