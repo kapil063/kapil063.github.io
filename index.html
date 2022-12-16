@@ -4,224 +4,274 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Me</title>
-  </head>
-  <style>
-    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
-    body {
-      font-family: "Montserrat", sans-serif;
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
 
-      margin: 0;
-      display: flex;
-    }
-    .sec1 {
-      height: 100vh;
-      width: 400px;
-      margin: 0;
-      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1005%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(255%2c 0%2c 45%2c 1)'%3e%3c/rect%3e%3cpath d='M15.68 -60.58L80.63 -23.08L80.63 51.92L15.68 89.42L-49.27 51.92L-49.27 -23.08zM80.63 51.92L145.59 89.42L145.59 164.42L80.63 201.92L15.68 164.42L15.68 89.42zM210.54 51.92L275.5 89.42L275.5 164.42L210.54 201.92L145.59 164.42L145.59 89.42zM340.45 276.92L405.4 314.42L405.4 389.42L340.45 426.92L275.5 389.42L275.5 314.42zM405.4 -60.58L470.36 -23.08L470.36 51.92L405.4 89.42L340.45 51.92L340.45 -23.08zM470.36 501.92L535.31 539.42L535.31 614.42L470.36 651.92L405.4 614.42L405.4 539.42zM730.17 276.92L795.13 314.42L795.13 389.42L730.17 426.92L665.22 389.42L665.22 314.42zM860.08 276.92L925.03 314.42L925.03 389.42L860.08 426.92L795.12 389.42L795.12 314.42zM795.12 389.42L860.08 426.92L860.08 501.92L795.12 539.42L730.17 501.92L730.17 426.92zM1054.94 -60.58L1119.89 -23.08L1119.89 51.92L1054.94 89.42L989.99 51.92L989.99 -23.08zM1054.94 389.42L1119.89 426.92L1119.89 501.92L1054.94 539.42L989.99 501.92L989.99 426.92zM1184.85 -60.58L1249.8 -23.08L1249.8 51.92L1184.85 89.42L1119.89 51.92L1119.89 -23.08zM1379.71 51.92L1444.66 89.42L1444.66 164.42L1379.71 201.92L1314.76 164.42L1314.76 89.42zM1314.76 164.42L1379.71 201.92L1379.71 276.92L1314.76 314.42L1249.8 276.92L1249.8 201.92zM1444.66 164.42L1509.62 201.92L1509.62 276.92L1444.66 314.42L1379.71 276.92L1379.71 201.92zM1444.66 389.42L1509.62 426.92L1509.62 501.92L1444.66 539.42L1379.71 501.92L1379.71 426.92zM1509.62 501.92L1574.57 539.42L1574.57 614.42L1509.62 651.92L1444.66 614.42L1444.66 539.42z' stroke='rgba(148%2c 148%2c 148%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M8.18 -60.58 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM73.13 -23.08 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM73.13 51.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM8.18 89.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM-56.77 51.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM-56.77 -23.08 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM138.09 89.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM138.09 164.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM73.13 201.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM8.18 164.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM203.04 51.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM268 89.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM268 164.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM203.04 201.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM332.95 276.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM397.9 314.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM397.9 389.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM332.95 426.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM268 389.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM268 314.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM397.9 -60.58 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM462.86 -23.08 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM462.86 51.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM397.9 89.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM332.95 51.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM332.95 -23.08 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM462.86 501.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM527.81 539.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM527.81 614.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM462.86 651.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM397.9 614.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM397.9 539.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM722.67 276.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM787.63 314.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM787.63 389.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM722.67 426.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM657.72 389.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM657.72 314.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM852.58 276.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM917.53 314.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM917.53 389.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM852.58 426.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM787.62 389.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM787.62 314.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM852.58 501.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM787.62 539.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM722.67 501.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1047.44 -60.58 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1112.39 -23.08 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1112.39 51.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1047.44 89.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM982.49 51.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM982.49 -23.08 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1047.44 389.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1112.39 426.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1112.39 501.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1047.44 539.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM982.49 501.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM982.49 426.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1177.35 -60.58 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1242.3 -23.08 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1242.3 51.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1177.35 89.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1372.21 51.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1437.16 89.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1437.16 164.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1372.21 201.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1307.26 164.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1307.26 89.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1372.21 276.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1307.26 314.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1242.3 276.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1242.3 201.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1502.12 201.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1502.12 276.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1437.16 314.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1437.16 389.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1502.12 426.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1502.12 501.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1437.16 539.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1372.21 501.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1372.21 426.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1567.07 539.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1567.07 614.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1502.12 651.92 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0zM1437.16 614.42 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0z' fill='rgba(148%2c 148%2c 148%2c 1)'%3e%3c/path%3e%3cpath d='M6.05 -38.3L49.35 -13.3L49.35 36.7L6.05 61.7L-37.25 36.7L-37.25 -13.3zM49.35 186.7L92.66 211.7L92.66 261.7L49.35 286.7L6.05 261.7L6.05 211.7zM49.35 486.7L92.66 511.7L92.66 561.7L49.35 586.7L6.05 561.7L6.05 511.7zM92.66 -38.3L135.96 -13.3L135.96 36.7L92.66 61.7L49.35 36.7L49.35 -13.3zM92.66 111.7L135.96 136.7L135.96 186.7L92.66 211.7L49.35 186.7L49.35 136.7zM352.47 261.7L395.77 286.7L395.77 336.7L352.47 361.7L309.17 336.7L309.17 286.7zM612.28 -38.3L655.59 -13.3L655.59 36.7L612.28 61.7L568.98 36.7L568.98 -13.3zM655.59 36.7L698.89 61.7L698.89 111.7L655.59 136.7L612.28 111.7L612.28 61.7zM698.89 261.7L742.19 286.7L742.19 336.7L698.89 361.7L655.59 336.7L655.59 286.7zM742.19 336.7L785.5 361.7L785.5 411.7L742.19 436.7L698.89 411.7L698.89 361.7zM915.4 36.7L958.71 61.7L958.71 111.7L915.4 136.7L872.1 111.7L872.1 61.7zM915.4 486.7L958.71 511.7L958.71 561.7L915.4 586.7L872.1 561.7L872.1 511.7zM958.71 261.7L1002.01 286.7L1002.01 336.7L958.71 361.7L915.4 336.7L915.4 286.7zM1088.61 486.7L1131.91 511.7L1131.91 561.7L1088.61 586.7L1045.31 561.7L1045.31 511.7z' stroke='rgba(255%2c 255%2c 255%2c 1)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1005'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
-      /* background: linear-gradient(to right, #000000, #130f40); */
-      position: sticky;
-      top: 0;
-    }
-    main {
-      width: 100vw;
-      height: fit-content;
-    }
-    .sec2 {
-      padding: 2rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1009%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(44%2c 139%2c 237%2c 1)'%3e%3c/rect%3e%3cpath d='M330 101L329 304' stroke-width='6' stroke='url(%23SvgjsLinearGradient1010)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1272 366L1271 -32' stroke-width='6' stroke='url(%23SvgjsLinearGradient1011)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M984 523L983 248' stroke-width='8' stroke='url(%23SvgjsLinearGradient1011)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1031 13L1030 320' stroke-width='10' stroke='url(%23SvgjsLinearGradient1011)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M173 35L172 -315' stroke-width='10' stroke='url(%23SvgjsLinearGradient1010)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M764 220L763 -135' stroke-width='8' stroke='url(%23SvgjsLinearGradient1011)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M111 180L110 -191' stroke-width='10' stroke='url(%23SvgjsLinearGradient1011)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M44 201L43 7' stroke-width='10' stroke='url(%23SvgjsLinearGradient1010)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1273 94L1272 388' stroke-width='6' stroke='url(%23SvgjsLinearGradient1011)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1422 388L1421 189' stroke-width='10' stroke='url(%23SvgjsLinearGradient1010)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1297 507L1296 896' stroke-width='10' stroke='url(%23SvgjsLinearGradient1011)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M812 369L811 190' stroke-width='8' stroke='url(%23SvgjsLinearGradient1010)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M626 372L625 -22' stroke-width='10' stroke='url(%23SvgjsLinearGradient1011)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1120 197L1119 492' stroke-width='6' stroke='url(%23SvgjsLinearGradient1011)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M205 175L204 -192' stroke-width='10' stroke='url(%23SvgjsLinearGradient1011)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M557 40L556 -182' stroke-width='6' stroke='url(%23SvgjsLinearGradient1010)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M294 144L293 -273' stroke-width='10' stroke='url(%23SvgjsLinearGradient1010)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M100 304L99 601' stroke-width='6' stroke='url(%23SvgjsLinearGradient1010)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M20 433L19 40' stroke-width='8' stroke='url(%23SvgjsLinearGradient1010)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M542 169L541 -158' stroke-width='6' stroke='url(%23SvgjsLinearGradient1011)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M565 496L564 678' stroke-width='6' stroke='url(%23SvgjsLinearGradient1010)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M225 243L224 67' stroke-width='6' stroke='url(%23SvgjsLinearGradient1011)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1237 426L1236 190' stroke-width='10' stroke='url(%23SvgjsLinearGradient1011)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M520 271L519 -129' stroke-width='8' stroke='url(%23SvgjsLinearGradient1010)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M403 205L402 539' stroke-width='8' stroke='url(%23SvgjsLinearGradient1010)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M452 244L451 -103' stroke-width='6' stroke='url(%23SvgjsLinearGradient1011)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M483 5L482 -178' stroke-width='6' stroke='url(%23SvgjsLinearGradient1010)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M136 528L135 375' stroke-width='8' stroke='url(%23SvgjsLinearGradient1011)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1072 517L1071 313' stroke-width='6' stroke='url(%23SvgjsLinearGradient1010)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M793 534L792 913' stroke-width='10' stroke='url(%23SvgjsLinearGradient1011)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1280 351L1279 -65' stroke-width='6' stroke='url(%23SvgjsLinearGradient1011)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M917 370L916 3' stroke-width='8' stroke='url(%23SvgjsLinearGradient1011)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1081 405L1080 64' stroke-width='6' stroke='url(%23SvgjsLinearGradient1011)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M558 411L557 579' stroke-width='10' stroke='url(%23SvgjsLinearGradient1010)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1334 279L1333 -92' stroke-width='10' stroke='url(%23SvgjsLinearGradient1010)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M913 367L912 555' stroke-width='10' stroke='url(%23SvgjsLinearGradient1010)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1009'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='0%25' x2='0%25' y2='100%25' id='SvgjsLinearGradient1010'%3e%3cstop stop-color='rgba(42%2c 42%2c 116%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(42%2c 42%2c 116%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1011'%3e%3cstop stop-color='rgba(42%2c 42%2c 116%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(42%2c 42%2c 116%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
-      /* background: linear-gradient(to right, #000000, #130f40); */
-    }
-    .img {
-      border-radius: 50%;
-      width: 120px;
-      border: solid #ffa69e;
-    }
-    .div {
-      display: flex;
-      justify-content: center;
-      padding-top: 100px;
-      color: white;
-    }
-    .div2 {
-      width: 400px;
-      margin: auto;
-      margin-top: 2px;
-      text-align: center;
-    }
-    .div3 {
-      font-size: 20px;
-      color: #ffa69e;
-    }
-    .div4 {
-      font-size: 15px;
-      color: white;
-    }
-    .btn {
-      color: white;
-      background: linear-gradient(to right, #5d4954, #ffa69e);
-      width: 250px;
-      height: 30px;
-      border-radius: 16px;
-      border: none;
-      font-family: "Montserrat", sans-serif;
-    }
-    .btn:hover {
-      cursor: pointer;
-      transform: scale(102%);
-      transition: 0.2s;
-      background: white;
-      color: #000000;
-    }
-    .button {
-      padding-top: 15px;
-    }
-    .div5 {
-      width: 800px;
-      height: 500px;
-      margin: auto;
-      margin-top: 120px;
-      color: white;
-    }
-    .div6 {
-      font-size: 30px;
-      padding-left: 4px;
-    }
-    .div7 {
-      font-size: 50px;
-    }
-    .Name {
-      color: #ffa69e;
-    }
-    .div8 {
-      padding-top: 10px;
-      padding-left: 4px;
-    }
-    .div9 {
-      padding-top: 30px;
-    }
-    .bt {
-      color: white;
-      background: linear-gradient(to right, #5d4954, #ffa69e);
-      /* background-color: #a8e890a9; */
-      width: 150px;
-      height: 35px;
-      border-radius: 16px;
-      border: none;
-      font-family: "Montserrat", sans-serif;
-    }
-    .bt:hover {
-      cursor: pointer;
-      transform: scale(102%);
-      transition: 0.2s;
-      background: linear-gradient(to right, #ffffff, #ffffff);
-      color: rgb(0, 0, 0);
-    }
-    .btn-home {
-      position: fixed;
-      bottom: 1rem;
-      right: 1rem;
-    }
-    .btn-home2 {
-      padding: 12px;
-      color: #fffbfb;
-      background-color: #ffa69e;
-      border-radius: 35px;
-      border: none;
-    }
-    html {
-      scroll-behavior: smooth;
-    }
-    @media only screen and (max-width: 600px) {
-      body {
-        flex-direction: column;
+      @import url("https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap");
+
+      .Btn-txt {
+        color: white;
       }
-      .sec2 {
-        flex-direction: column;
+
+      a {
+        text-decoration: none;
       }
-      .sec1 {
-        position: static;
+      ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        color: white;
+        font-size: large;
+        font-weight: bold;
+        /* font-family: "Rubik Microbe", cursive; */
+        gap: 50px;
+      }
+
+      li {
+        list-style: none;
+        padding-right: 15px;
+      }
+      .nav-style {
+        display: flex;
+        flex-direction: row;
+        margin: 0px;
+      }
+
+      nav {
+        background-color: rgba(129, 201, 253, 0.493);
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
+        /* border-bottom: dashed 2px rgba(116, 193, 248, 0.493); */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0px;
+        position: fixed;
         width: 100vw;
+        height: 55px;
+        padding: 3px;
       }
-      .div5 {
-        width: fit-content;
+
+      .btn-cv {
+        border: solid white 1px;
+        border-radius: 10px;
+        /* background: linear-gradient(
+          90deg,
+          #290003,
+          #410614,
+          #5e071e,
+          #7c0828,
+          #9b0832,
+          #bb063d,
+          #dd0447,
+          #ff0051
+        ); */
+        font-size: medium;
+        font-weight: bolder;
+        margin-top: 3px;
+        margin-right: 50px;
+        padding: 7px;
+        background-color: rgba(255, 255, 255, 0);
+        color: rgb(255, 255, 255);
+        height: 45px;
+        width: 130px;
+        /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
       }
-      .div2 {
-        width: fit-content;
+      .btn-cv:hover {
+        cursor: pointer;
+        background: white;
+        color: rgb(129, 201, 253);
       }
-      .Name {
+
+      body {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        background: radial-gradient(
+          circle at 30% 50%,
+          #0e0029,
+          #151e46,
+          #1d3765,
+          #215185,
+          #226ea5,
+          #1d8cc4,
+          #15abe3,
+          #0fcbff
+        );
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        height: 100vh;
+        width: 90vw;
+        scroll-behavior: smooth;
+        font-family: "Ubuntu", sans-serif;
+      }
+      .logoo {
+        height: 50px;
+        border-radius: 40px;
+        margin-top: 2.5px;
+        margin-left: 4px;
+      }
+      .sec {
+        padding: 35px;
+        margin: 0;
+        display: flex;
+        gap: 50px;
+      }
+      .sec-1 {
+        border: 1px solid white;
+        border-radius: 15px;
+        padding: 10px;
+        height: 70vh;
+        width: 30vw;
+        background-color: rgb(240, 248, 255);
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+          rgba(0, 0, 0, 0.22) 0px 15px 12px;
+      }
+      .sec-2 {
+        color: white;
+      }
+      .img-into {
+        height: 50vh;
+        border-radius: 30px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+
+      .btn-1 {
+        font-size: 17px;
+        font-weight: bolder;
+        height: 50px;
+        width: 280px;
+        border-radius: 14px;
+        border: none;
+        background: linear-gradient(
+          90deg,
+          #290003,
+          #410614,
+          #5e071e,
+          #7c0828,
+          #9b0832,
+          #bb063d,
+          #dd0447,
+          #ff0051
+        );
+        color: white;
+        margin-top: 12px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+
+      .btn-1:hover {
+        background: white;
+        color: #7c0828;
+        cursor: pointer;
+      }
+      h1 {
+        font-size: 70px;
+        color: #fff;
+      }
+
+      .h1:hover {
+        color: #7c0828;
+      }
+      p {
+        font-weight: bold;
         font-size: 40px;
       }
-    }
-  </style>
+      main {
+        padding: 50px;
+        gap: 50px;
+      }
+      .foot {
+        margin: 0;
+        height: 50vh;
+        width: 88vw;
+        color: beige;
+        border-radius: 30px;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.377);
+      }
+    </style>
+  </head>
   <body>
-    <section class="sec1">
-      <div class="div">
-        <div><img class="img" src="kapil.jpg" alt="" /></div>
-      </div>
-      <div class="div2">
-        <div class="div3"><b>Kapil Thapa</b></div>
-        <div class="div4">Front End Developer</div>
-        <div class="button"><button class="btn">Home</button></div>
-        <div class="button"><button class="btn">About</button></div>
-        <div class="button"><button class="btn">Education</button></div>
-        <div class="button"><button class="btn">Portfolio</button></div>
-        <div class="button"><button class="btn">Contact</button></div>
-      </div>
-    </section>
-    <main>
-      <section class="sec2">
-        <div class="div5">
-          <div class="btn-home">
-            <a href="#home">
-              <iconify-icon
-                class="btn-home2"
-                icon="akar-icons:home-alt1"
-              ></iconify-icon>
-            </a>
-          </div>
-          <div class="div6">HI THERE !</div>
-          <div class="div7">I'M <span class="Name"> Kapil Thapa</span></div>
-          <div class="div8">
-            hii viewer this is kapil thapa, this webpage is just an replica of
-            my HTML + Css knowledge//// If uhh Like it Just follow me on IG-
-            hey.kapilthapa , githup- kapil063
-          </div>
-          <div class="div9">
-            <a href="https://www.instagram.com/hey.kapilthapa/">
-              <button class="bt">
-                Instagram<iconify-icon
-                  icon="ant-design:instagram-outlined"
-                ></iconify-icon>
-              </button>
-            </a>
-          </div>
+    <header>
+      <nav>
+        <div>
+          <img class="logoo" src="1.png" alt="" />
         </div>
-      </section>
-      <section class="sec2">
-        <div class="div5">
-          <div class="div6">I'm Also in</div>
-          <div class="div7">Github-<span class="Name">Kapil063</span></div>
-          <div class="div8">
-            follow me on github by searching kapil230 or just click on the
-            button below.
-          </div>
-          <div class="div9">
-            <a href="https://github.com/kapil063">
-              <button class="bt">
-                Github<iconify-icon
-                  icon="akar-icons:github-fill"
-                ></iconify-icon>
-              </button>
-            </a>
-          </div>
+        <div>
+          <ul>
+            <li>Home</li>
+            <li>Social</li>
+            <li>About</li>
+          </ul>
         </div>
-      </section>
-    </main>
 
+        <div>
+          <a class="Btn-txt" href="facebook.html">
+            <button class="btn-cv">Contact me</button>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="sec">
+        <section class="sec-1">
+          <img src="post.webp" alt="" class="img-into" />
+          <a href="https://www.instagram.com/hey.kapilthapa/"
+            ><button class="btn-1">
+              Instagram <iconify-icon icon="bi:instagram"></iconify-icon>
+            </button>
+          </a>
+          <a href="https://github.com/kapil063"
+            ><button class="btn-1">
+              Github<iconify-icon icon="mdi:github"></iconify-icon>
+            </button>
+          </a>
+        </section>
+        <section class="sec-2">
+          <h1>KAPIL THAPA!</h1>
+          <p>
+            Hey there Vairus this side, Thanks to visit my website & make sure
+            to follow me on my social media handle
+          </p>
+        </section>
+      </section>
+
+      <section class="sec">
+        <section class="sec-2">
+          <span>
+            <h1>VAIRUS CREATION!!</h1>
+          </span>
+
+          <p>
+            Hey there Vairus this side, Thanks to visit my website & make sure
+            to follow me on my social media handle
+          </p>
+        </section>
+        <section class="sec-1">
+          <img src="post2.webp" alt="" class="img-into" />
+          <a href="">
+            <button class="btn-1">
+              Instagram <iconify-icon icon="bi:instagram"></iconify-icon>
+            </button>
+          </a>
+          <a href="">
+            <button class="btn-1">
+              Github<iconify-icon icon="mdi:github"></iconify-icon>
+            </button>
+          </a>
+        </section>
+      </section>
+      <footer class="foot">
+        <div>KAPIL thapa</div>
+      </footer>
+    </main>
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
   </body>
 </html>
